@@ -1,0 +1,22 @@
+Class - PromotionDAO
+The support of this class is not given in GUI, and it's CLI, this class has 4 option, 
+	1. Delete Old Year Order, Order Details,  Invoices, set the Seq No, increment Year for studentinvnumber, increment Year set seq to 1 in studentordernumber, 
+	   this option to be executed only once for the entire database, inclusive of all the Schools (Once Per Year)
+	2. Delete out going students 
+	3. Promote students - this option to be executed many times in reverse order of the class 
+			for example:  11 - 12
+						  10 - 11
+						  9  - 10
+						  8  - 9
+						  7  - 8
+						  6  - 7
+						  5  - 6
+						  4  - 5
+						  3  - 4
+						  2  - 3
+						  1  - 2
+						  UKG- 1  
+	 					  LKG- UKG
+	 4. Exit
+Note: the ordering should be in same way, and cannot be changed, if it is done then import the old database again and start. 
+
